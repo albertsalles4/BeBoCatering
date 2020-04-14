@@ -1,0 +1,76 @@
+body { 
+    padding-top: 90px;
+    background-color:#D3EDF8;
+}
+
+/* change the background color */
+.nav-custom {
+    background-color: #0A3142;
+    height: auto;
+    font-size: 25px;
+}
+
+.mybtn{
+    float:left;
+    padding:15px;
+    display:inline-block;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover {
+    color: #87CEEB;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.nav-elements {
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    background-color: #87CEEB;
+    color: #000000;
+}
+
+
+@media only screen and (max-device-width: 768px) {
+    .navbar .navbar-nav {
+        width: auto
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.center-align {
+    margin: auto;
+    text-align: center;
+}
+
+.btn-circle.btn-xl { 
+    width: 70px; 
+    height: 70px; 
+    padding: 10px 16px; 
+    border-radius: 35px; 
+    font-size: 12px; 
+    text-align: center; 
+} 
+
+.action_btn {
+    position: fixed; 
+    bottom:23px;
+    width:100%;
+}
+
+.font-bookman {
+    font-family: bookman;
+}
+
+.font-verdana {
+    font-family: verdana;
+}
