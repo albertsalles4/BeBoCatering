@@ -47,6 +47,23 @@ body {
     }
 }
 
+.user-menu{
+    text-align: left;
+    color: #a8bdc6;
+}
+
+.user-image{
+    float: left;
+    margin: 3%;
+}
+
+.username{
+    float: left;
+    margin-top: 6%;
+    margin-left: 2%;
+    font-size: large;
+}
+
 .center-align {
     margin: auto;
     text-align: center;
