@@ -1,0 +1,96 @@
+body {
+    padding-bottom: 50px;
+}
+
+.thumb img {
+  border: 2px solid #0A3142;
+  border-radius: 1px;
+  padding: 0px;
+  width: 90px;
+}
+
+.btn-mod {
+  background-color: #0A3142;
+  border: 2px solid #0A3142 ;
+  color: white;
+  padding: 2px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  transition: initial;
+}
+
+.btn-mod:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid #0A3142;
+}
+
+.btn-remove {
+  background-color: transparent;
+  width: 7px;
+  border: 0px solid #0A3142 ;
+  color: #0A3142;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.close-img {
+	color: #0A3142;
+}
+
+.dish-name {
+	font-size: 18px;
+	font-style: verdana;
+	font-weight: bold;
+}
+
+.restaurant-name {
+	font-size: 14px;
+	font-style: verdana;
+}
+
+.price {
+	font-size: 14px;
+	font-style: verdana;
+}
+
+.bottom-btn {
+	width: 100%;
+	border-radius: 0rem;
+	position: fixed;
+	bottom: 0px;
+}
+
+.tramitar-btn {
+	background-color: #a8bdc6;
+	border-right-color: black;
+	border-right-width: 1.5px;
+	width: 49%;
+	font-weight: bold;
+	font-style: verdana;
+}
+
+.afegir-btn {
+	background-color: #a8bdc6;
+	border-left-color: black;
+	border-left-width: 1.5px;
+	width: 49%;
+	font-weight: bold;
+	font-style: verdana;
+}
+
+.subtotal {
+	font-size: 18px;
+	font-style: verdana;
+	font-weight: bold;
+}
+
+.bottom-container {
+	position: fixed;
+	bottom: 30px;
+	background-color: #D3EDF8;
+}
