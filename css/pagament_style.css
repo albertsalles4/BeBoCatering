@@ -1,0 +1,27 @@
+.bottom-btn {
+	width: 100%;
+	border-radius: 0rem;
+	position: fixed;
+	bottom: 0px;
+	height: 70px;
+}
+
+.subtotal {
+	font-size: 22px;
+	font-style: verdana;
+	font-weight: bold;
+}
+
+.bottom-container {
+	position: fixed;
+	bottom: 70px;
+	background-color: #D3EDF8;
+}
+
+.pagar-btn {
+	background-color: #a8bdc6;
+	width: 100%;
+	font-weight: bold;
+	font-style: verdana;
+	font-size: 22px;
+}
