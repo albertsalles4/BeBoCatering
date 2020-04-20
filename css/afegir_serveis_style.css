@@ -1,0 +1,75 @@
+body {
+    padding-bottom: 170px;
+}
+
+.thumb img {
+  border: 3px solid #0A3142;
+  border-radius: 1px;
+  padding: 0px;
+  width: 110px;
+}
+
+.section-title {
+	font-family: verdana;
+	font-size: 24px;
+}
+
+.btn-add {
+	background-color: transparent;
+	background-color: transparent;
+  	width: 40px;
+  	height: 40px;
+  	border: 0px solid #0A3142 ;
+  	color: #0A3142;
+  	padding: 2px 2px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+}
+
+.service-name {
+	font-size: 22px;
+	font-style: verdana;
+	font-weight: bold;
+}
+
+.price {
+	font-size: 20px;
+	font-style: verdana;
+}
+
+.neteja {
+	background-color: #1A91B1;
+}
+
+.section-title little {
+	font-size: 11px;
+}
+
+.tramitar-btn {
+	background-color: #a8bdc6;
+	width: 100%;
+	font-weight: bold;
+	font-style: verdana;
+	font-size: 22px;
+}
+
+.bottom-btn {
+	width: 100%;
+	border-radius: 0rem;
+	position: fixed;
+	bottom: 0px;
+	height: 70px;
+}
+
+.subtotal {
+	font-size: 22px;
+	font-style: verdana;
+	font-weight: bold;
+}
+
+.bottom-container {
+	position: fixed;
+	bottom: 70px;
+	background-color: #D3EDF8;
+}
