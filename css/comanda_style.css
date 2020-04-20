@@ -1,12 +1,12 @@
 body {
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .thumb img {
-  border: 2px solid #0A3142;
+  border: 3px solid #0A3142;
   border-radius: 1px;
   padding: 0px;
-  width: 90px;
+  width: 110px;
 }
 
 .btn-mod {
@@ -17,7 +17,7 @@ body {
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 13px;
+  font-size: 18px;
   transition: initial;
 }
 
@@ -29,7 +29,8 @@ body {
 
 .btn-remove {
   background-color: transparent;
-  width: 7px;
+  width: 8px;
+  height: 8px;
   border: 0px solid #0A3142 ;
   color: #0A3142;
   padding: 2px 4px;
@@ -43,18 +44,18 @@ body {
 }
 
 .dish-name {
-	font-size: 18px;
+	font-size: 22px;
 	font-style: verdana;
 	font-weight: bold;
 }
 
 .restaurant-name {
-	font-size: 14px;
+	font-size: 18px;
 	font-style: verdana;
 }
 
 .price {
-	font-size: 14px;
+	font-size: 20px;
 	font-style: verdana;
 }
 
@@ -63,6 +64,7 @@ body {
 	border-radius: 0rem;
 	position: fixed;
 	bottom: 0px;
+	height: 70px;
 }
 
 .tramitar-btn {
@@ -72,6 +74,7 @@ body {
 	width: 49%;
 	font-weight: bold;
 	font-style: verdana;
+	font-size: 22px;
 }
 
 .afegir-btn {
@@ -81,16 +84,17 @@ body {
 	width: 49%;
 	font-weight: bold;
 	font-style: verdana;
+	font-size: 22px;
 }
 
 .subtotal {
-	font-size: 18px;
+	font-size: 22px;
 	font-style: verdana;
 	font-weight: bold;
 }
 
 .bottom-container {
 	position: fixed;
-	bottom: 30px;
+	bottom: 70px;
 	background-color: #D3EDF8;
 }
