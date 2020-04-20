@@ -1,3 +1,14 @@
+body {
+    padding-bottom: 170px;
+}
+
+.thumb img {
+  border: 3px solid #0A3142;
+  border-radius: 1px;
+  padding: 0px;
+  width: 110px;
+}
+
 .bottom-btn {
 	width: 100%;
 	border-radius: 0rem;
@@ -6,7 +17,7 @@
 	height: 70px;
 }
 
-.subtotal {
+.total {
 	font-size: 22px;
 	font-style: verdana;
 	font-weight: bold;
@@ -24,4 +35,21 @@
 	font-weight: bold;
 	font-style: verdana;
 	font-size: 22px;
+}
+
+.section-title {
+	font-family: verdana;
+	font-size: 24px;
+}
+
+.service-name {
+	font-size: 22px;
+	font-style: verdana;
+	font-weight: bold;
+}
+
+.price {
+	font-size: 20px;
+	font-style: verdana;
+	text-align: right;
 }
