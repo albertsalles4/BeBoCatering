@@ -1,5 +1,5 @@
 body {
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
 
 .thumb img {
@@ -29,11 +29,11 @@ body {
 
 .btn-remove {
   background-color: transparent;
-  width: 8px;
-  height: 8px;
+  width: 30px;
+  height: 30px;
   border: 0px solid #0A3142 ;
   color: #0A3142;
-  padding: 2px 4px;
+  padding: 2px 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
