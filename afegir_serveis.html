@@ -76,8 +76,8 @@
                             <p class="service-name">Servei de cambrers</p>
                         </div>
                         <div class="col-2">
-                            <button type="button" class="btn btn-add">  
-                                <i class="far fa-plus-square fa-2x"></i>
+                            <button type="button" class="btn btn-add" onclick="toggleicons('check_img1')">  
+                                <i id="check_img1" class="far fa-plus-square fa-2x"></i>
                             </button>
                         </div>
                     </div>
@@ -103,8 +103,8 @@
                             <p class="service-name">Servei de neteja</p>
                         </div>
                         <div class="col-2">
-                            <button type="button" class="btn btn-add">  
-                                <i class="far fa-plus-square fa-2x"></i>
+                            <button type="button" class="btn btn-add" onclick="toggleicons('check_img2')">  
+                                <i id="check_img2" class="far fa-plus-square fa-2x"></i>
                             </button>
                         </div>
                     </div>
@@ -134,8 +134,8 @@
                             <p class="service-name">Vaixella ecològica</p>
                         </div>
                         <div class="col-2">
-                            <button type="button" class="btn btn-add">  
-                                <i class="far fa-plus-square fa-2x"></i>
+                            <button type="button" class="btn btn-add" onclick="toggleicons('check_img3')">  
+                                <i id="check_img3" class="far fa-plus-square fa-2x"></i>
                             </button>
                         </div>
                     </div>
@@ -161,8 +161,8 @@
                             <p class="service-name">Vaixella de ceràmica</p>
                         </div>
                         <div class="col-2">
-                            <button type="button" class="btn btn-add">  
-                                <i class="far fa-plus-square fa-2x"></i>
+                            <button type="button" class="btn btn-add" onclick="toggleicons('check_img4')">  
+                                <i id="check_img4" class="far fa-plus-square fa-2x"></i>
                             </button>
                         </div>
                     </div>
@@ -192,8 +192,8 @@
                             <p class="service-name">Tasteig dels plats</p>
                         </div>
                         <div class="col-2">
-                            <button type="button" class="btn btn-add">  
-                                <i class="far fa-plus-square fa-2x"></i>
+                            <button type="button" class="btn btn-add" onclick="toggleicons('check_img5')">  
+                                <i id="check_img5" class="far fa-plus-square fa-2x"></i>
                             </button>
                         </div>
                     </div>
@@ -209,9 +209,6 @@
 
          <!-- fixed action button -->
         <div class="container bottom-container">
-            <div class="row justify-content-end">
-                <p class="subtotal tab">Subtotal: 200,00 € &nbsp;&nbsp;</p>
-            </div>
             <div class="row">
                 <button type="button" class="btn tramitar-btn bottom-btn" onclick="window.location.href = 'pagament.html';">Tramitar</button>
             </div>
@@ -219,6 +216,18 @@
         <!-- end fixed action button -->
 
         <!-- Optional JavaScript -->
+        <script>
+        function toggleicons(name) {
+            var icon = document.getElementById(name);
+            if(icon.classList.contains('fa-plus-square')) {
+                icon.classList.remove('fa-plus-square');
+                icon.classList.add('fa-check-square');
+            } else {
+                icon.classList.remove('fa-check-square');
+                icon.classList.add('fa-plus-square');
+            }
+        }
+        </script>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

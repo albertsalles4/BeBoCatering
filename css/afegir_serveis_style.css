@@ -1,5 +1,5 @@
 body {
-    padding-bottom: 170px;
+    padding-bottom: 60px;
 }
 
 .thumb img {
@@ -70,6 +70,6 @@ body {
 
 .bottom-container {
 	position: fixed;
-	bottom: 70px;
+	bottom: 40px;
 	background-color: #D3EDF8;
 }
