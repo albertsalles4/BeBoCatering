@@ -1,0 +1,26 @@
+.image-style {
+    width: 300px;
+    height: 180px;
+}
+
+/* Container holding the image and the text */
+.container-img {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+/* Centered text */
+.centered-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#wrapper {
+    margin-top: 10%;
+    display:flex;
+    justify-content:space-between;
+}
