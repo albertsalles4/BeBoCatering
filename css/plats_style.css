@@ -1,0 +1,85 @@
+body {
+    padding-bottom: 95px;
+}
+
+.container-val { 
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    border-style: solid;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.float-left {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+}
+
+.arrow-fa {
+    margin-top: 1%; 
+    float: right;
+    margin-right: 2%;
+}
+
+/* ----------- PLATS ------------ */
+.thumb img {
+  border: 3px solid #0A3142;
+  border-radius: 1px;
+  padding: 0px;
+  width: 110px;
+}
+
+.section-title {
+	font-family: verdana;
+	font-size: 24px;
+}
+
+.btn-add {
+	background-color: transparent;
+	background-color: transparent;
+  	width: 40px;
+  	height: 40px;
+  	border: 0px solid #0A3142 ;
+  	color: #0A3142;
+  	padding: 2px 2px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+}
+
+.dish-name {
+	font-size: 22px;
+	font-style: verdana;
+	font-weight: bold;
+}
+
+#wrapper {
+    display:flex;
+    justify-content:space-between;
+}
+
+.price {
+	font-size: 20px;
+	font-style: verdana;
+}
+
+.section-title {
+    margin-top: 5%;
+	font-size: 30px;
+}
+
+input {
+    margin-left: 6%;
+    width: 80px;
+    height: 31px;
+    text-align: right; 
+}
+
+.racions-label {
+    margin-top: 7%;
+}

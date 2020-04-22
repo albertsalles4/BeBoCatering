@@ -2,7 +2,7 @@
 <html lang="ca">
     <head>
         <meta charset="utf-8">
-        <title>BeBoCatering - Plats - Restaurant</title>
+        <title>BeBoCatering - Plats - Casa Carmela</title>
         
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
@@ -11,7 +11,7 @@
         
         <!-- CSS here -->
         <link rel="stylesheet" href="css/layout.css">
-        <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+        <link rel="stylesheet" href="css/plats_style.css">
         
         <!-- Place your kit's code here -->
         <script src="https://kit.fontawesome.com/d7b6b3bb22.js" crossorigin="anonymous"></script>
@@ -58,8 +58,288 @@
         <!-- header-end -->
         
         <!-- rest of the page -->
-        <div class="container section introduction">
-            <h2 class="title-section font-verdana">Pàgina a implementar</h2>
+        <div class="container-val">
+            <h5 class="font-verdana float-left">VALORACIONS</h5>
+            <div class="float-left">
+                <i class="fas fa-star fa-lg"></i>
+                <i class="fas fa-star fa-lg"></i>
+                <i class="fas fa-star fa-lg"></i>
+                <i class="fas fa-star fa-lg"></i>
+                <i class="fas fa-star-half-alt fa-lg"></i>
+            </div>
+            <i class="arrow-fa fas fa-angle-right fa-2x"></i>
+        </div>
+        
+        <!-- plats -->
+        <div class="container">
+            <div class="section-title">Entrant</div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4 thumb">
+                    <img class="img" src="img/plats/braves.jpg" alt="Patates braves">
+                </div>
+
+                <div class="col-7">
+
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="dish-name">Patates braves</div>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-add" onclick="toggleicons('1')">  
+                                <i id="check_img1" class="far fa-plus-square fa-2x"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="racions-label">Racions:</div>
+                    
+                    <div id="wrapper" class="row">
+                        <input type="number" id="quantity1" name="quantity" placeholder="0" min="0" disabled="true">
+
+                        <div class="align-end price">4,00 €</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4 thumb">
+                    <img class="img" src="img/plats/titaina.jpeg" alt="Titaina">
+                </div>
+
+                <div class="col-7">
+
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="dish-name">Titaina</div>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-add" onclick="toggleicons('2')">  
+                                <i id="check_img2" class="far fa-plus-square fa-2x"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="racions-label">Racions:</div>
+                    
+                    <div id="wrapper" class="row">
+                        <input type="number" id="quantity2" name="quantity" placeholder="0" min="0" disabled="true">
+
+                        <div class="align-end price">5,00 €</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- PRIMERS PLATS -->
+        <div class="container">
+            <div class="section-title">Primers Plats</div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4 thumb">
+                    <img class="img" src="img/plats/paella.jpeg" alt="Paella">
+                </div>
+
+                <div class="col-7">
+
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="dish-name">Paella</div>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-add" onclick="toggleicons('3')">  
+                                <i id="check_img3" class="far fa-plus-square fa-2x"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="racions-label">Racions:</div>
+                    
+                    <div id="wrapper" class="row">
+                        <input type="number" id="quantity3" name="quantity" placeholder="0" min="0" disabled="true">
+
+                        <div class="align-end price">15,00 €</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4 thumb">
+                    <img class="img" src="img/plats/fideua.jpg" alt="Fideua">
+                </div>
+
+                <div class="col-7">
+
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="dish-name">Fideuà</div>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-add" onclick="toggleicons('4')">  
+                                <i id="check_img4" class="far fa-plus-square fa-2x"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="racions-label">Racions:</div>
+                    
+                    <div id="wrapper" class="row">
+                        <input type="number" id="quantity4" name="quantity" placeholder="0" min="0" disabled="true">
+
+                        <div class="align-end price">15,00 €</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- POSTRES -->
+        <div class="container">
+            <div class="section-title">Postres</div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4 thumb">
+                    <img class="img" src="img/plats/coulant.jpg" alt="Coulant">
+                </div>
+
+                <div class="col-7">
+
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="dish-name">Coulant</div>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-add" onclick="toggleicons('5')">  
+                                <i id="check_img5" class="far fa-plus-square fa-2x"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="racions-label">Racions:</div>
+                    
+                    <div id="wrapper" class="row">
+                        <input type="number" id="quantity5" name="quantity" placeholder="0" min="0" disabled="true">
+
+                        <div class="align-end price">5,00 €</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4 thumb">
+                    <img class="img" src="img/plats/cheesecake.jpg" alt="Pastís de formatge">
+                </div>
+
+                <div class="col-7">
+
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="dish-name">Cheesecake</div>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-add" onclick="toggleicons('6')">  
+                                <i id="check_img6" class="far fa-plus-square fa-2x"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="racions-label">Racions:</div>
+                    
+                    <div id="wrapper" class="row">
+                        <input type="number" id="quantity6" name="quantity" placeholder="0" min="0" disabled="true">
+
+                        <div class="align-end price">5,00 €</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- BEGUDES -->
+        <div class="container">
+            <div class="section-title">Begudes</div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4 thumb">
+                    <img class="img" src="img/plats/cervesa.jpg" alt="Cervesa">
+                </div>
+
+                <div class="col-7">
+
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="dish-name">Cervesa</div>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-add" onclick="toggleicons('7')">  
+                                <i id="check_img7" class="far fa-plus-square fa-2x"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="racions-label">Quantitat:</div>
+                    
+                    <div id="wrapper" class="row">
+                        <input type="number" id="quantity7" name="quantity" placeholder="0" min="0" disabled="true">
+
+                        <div class="align-end price">3,00 €</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4 thumb">
+                    <img class="img" src="img/plats/vi.jpg" alt="Vi blanc">
+                </div>
+
+                <div class="col-7">
+
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="dish-name">Vi blanc</div>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-add" onclick="toggleicons('8')">  
+                                <i id="check_img8" class="far fa-plus-square fa-2x"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="racions-label">Quantitat:</div>
+                    
+                    <div id="wrapper" class="row">
+                        <input type="number" id="quantity8" name="quantity" placeholder="0" min="0" disabled="true">
+
+                        <div class="align-end price">10,00 €</div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- fixed action button -->
@@ -71,11 +351,24 @@
         <!-- end fixed action button -->
 
         <!-- Optional JavaScript -->
+        <script>
+        function toggleicons(i) {
+            var icon = document.getElementById('check_img' + i);
+            var quantity = document.getElementById('quantity' + i);
+            if(icon.classList.contains('fa-plus-square')) {
+                icon.classList.remove('fa-plus-square');
+                icon.classList.add('fa-check-square');
+                quantity.disabled = false;
+            } else {
+                icon.classList.remove('fa-check-square');
+                icon.classList.add('fa-plus-square');
+                quantity.disabled = true;
+            }
+        }
+        </script>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        
-        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>        
     </body>
 </html>
