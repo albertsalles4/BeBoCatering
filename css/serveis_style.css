@@ -12,15 +12,12 @@
 
 /* Centered text */
 .centered-txt {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
     
 }
 
 #wrapper {
-    margin-top: 10%;
+    margin-top: 5%;
     display:flex;
     justify-content:space-between;
 }
