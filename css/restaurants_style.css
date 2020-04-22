@@ -1,6 +1,8 @@
 .image-style {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
+    filter: brightness(50%);
 }
 
 #wrapper {
@@ -23,7 +25,10 @@
 .container-img {
     position: relative;
     text-align: center;
-    color: black;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* Centered text */
@@ -32,5 +37,4 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
