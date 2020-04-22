@@ -81,6 +81,7 @@ body {
 } 
 
 .action_btn {
+    z-index: 5;
     position: fixed; 
     bottom:23px;
     width:100%;
