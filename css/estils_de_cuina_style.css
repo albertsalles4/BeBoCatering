@@ -6,7 +6,8 @@ body {
     width: 100%;
     height: 150px;
     border-radius: 10px;
-    filter: brightness(50%);
+    filter: brightness(60%);
+    object-fit: cover;
 }
 
 #wrapper {
@@ -14,6 +15,15 @@ body {
     margin-right: 2%;
     margin-top: 5%;
     display:flex;
+}
+
+.rest-name {
+    z-index: 1;
+    color: white;
+    font-family: verdana;
+    font-size: 25px;
+    width: 100%;
+    font-weight: bold;
 }
 
 /* Container holding the image and the text */
@@ -35,4 +45,12 @@ body {
   position: absolute;
   bottom: 8px;
   left: 16px;
+}
+
+/* Centered text */
+.centered-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
