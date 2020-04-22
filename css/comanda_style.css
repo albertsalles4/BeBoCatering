@@ -59,6 +59,11 @@ body {
 	font-style: verdana;
 }
 
+.quanitat {
+	font-size: 16px;
+	font-style: verdana;
+}
+
 .bottom-btn {
 	width: 100%;
 	border-radius: 0rem;
@@ -97,4 +102,12 @@ body {
 	position: fixed;
 	bottom: 70px;
 	background-color: #D3EDF8;
+}
+
+p {
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
 }
