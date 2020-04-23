@@ -1,0 +1,52 @@
+body {
+    padding-bottom: 50px;
+}
+
+.image-style {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.introduction {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title-section {
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+#wrapper {
+    margin-top: 10%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.item-l {
+    margin-left: 5%;
+    float: left;
+}
+
+.item-r {
+    margin-right: 5%;
+    float: right;
+}
+
+.item-c {
+    float: center;
+}
+
+.container-img {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 15px;
+}
