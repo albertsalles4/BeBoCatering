@@ -1,19 +1,26 @@
 .image-style {
     width: 300px;
     height: 180px;
+    border-radius: 10px;
+    filter: brightness(60%);
 }
 
 /* Container holding the image and the text */
 .container-img {
     position: relative;
     text-align: center;
-    color: black;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* Centered text */
 .centered-txt {
-    
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #wrapper {
